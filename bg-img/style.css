@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* :root {
+  box-sizing: border-box;
+  font-family: "Proxima Nova", Menlo, Avenir;
+  font-size: 0.75em;
+} */
+
+.wrapper {
+  border: 1px solid blue;
+  margin: 0px auto;
+  width: 1000px;
+} 
+
+/* .baloon {
+  width: 600px;
+} */
+
+/* to display image as background */
+.baloon {
+    width: 518px;
+    height: 375px;
+    background-image: url(baloons-francesco-ungaro-2325447.jpg);
+    /* background-size: 100%; */
+    /* background-size: 50%; */
+    /* background-size: contain; */
+    background-size: 200%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-position: center left;
+  }
+
+  .baloon:hover {
+      background-size: 100%;
+  }
