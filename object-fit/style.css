@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  box-sizing: border-box;
+}
+
+h1 {
+  /* border: 1px solid red; */
+  color: #e4e4e4;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 0.5em;
+}
+
+.card {
+  border: 1px solid red;
+  margin: 0 auto;
+  background-color: lightgreen;
+  width: 520px;
+  padding: 3rem;
+}
+
+.card_image {
+  width: 518px;
+  height: 345px;
+  /* object-fit: cover; */
+  /* object-fit: contain; */
+  /* object-fit: fill; */
+  /* object-fit: none; */
+  object-fit: scale-down;
+  /* object-position: top right; */
+}
